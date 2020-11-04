@@ -74,7 +74,7 @@ spec:
 kubectl --kubeconfig eriknet -n abcd apply -f nginx-abcd.yml
 ```
 
-#### check if everythings is OK
+#### check if everything is OK
 ```
 kubectl --kubeconfig eriknet -n abcd get deployment
 kubectl --kubeconfig eriknet -n abcd get pods
