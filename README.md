@@ -115,6 +115,6 @@ kubectl --kubeconfig eriknet -n abcd apply -f nginx-abcd-ingress.yml
 
 ## Check the result
 
-point your browser to: 
+Wait ~ one minute for the tls certificate to be generate point your browser to: 
 
 https://abcd.eriknet.net/test.txt
