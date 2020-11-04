@@ -54,7 +54,7 @@ spec:
         app: nginx-abcd
     spec:
       containers:
-      - name: echo1
+      - name: nginx-abcd
         image: YOUR_DOCKER_ACCOUNT/nginx-abcd
 ---
 apiVersion: v1
@@ -90,7 +90,7 @@ ningx-abcd-ingress.yml
 apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:
-  name: nginx-xzy
+  name: nginx-abcd
   annotations:
     cert-manager.io/cluster-issuer: "letsencrypt-prod"
 spec:
