@@ -97,7 +97,7 @@ spec:
   tls:
   - hosts:
     - abcd.eriknet.net
-    secretName: foobar-tls
+    secretName: abcd-tls
   rules:
   - host: abcd.eriknet.net
     http:
